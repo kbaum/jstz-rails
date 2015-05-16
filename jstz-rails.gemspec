@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "railties", ">= 3.1"
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "jstz-rails"
+  gem.name          = "jstz-rails3-plus"
   gem.require_paths = ["lib"]
   gem.version       = Jstz::Rails::VERSION
 end
